@@ -1,0 +1,49 @@
+body {
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #C5CFDF;
+    background-size:75px 100px;
+    margin: 0;
+    display: flex;
+}
+
+#grid {
+    position: absolute;
+    background-color: #FFE1ED;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 20vh;
+}
+
+#dino {
+    position: absolute;
+    bottom: 0;
+    width: 25vmin;
+    height: 25vmin;
+    max-width: 150px;
+    max-height: 150px;
+    background-image: url('./fear.svg');
+}
+
+#start_game_button {
+    position: absolute;
+    top: 80vh;
+    left: 35vw;
+    width: 30vw;
+    height: 8vh;
+    background-color: #e274a0;
+    border: none;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.obstacle {
+    position: absolute;
+    bottom: 0;
+    width: 20vmin;
+    height: 20vmin;
+    max-width: 100px;
+    max-height: 100px;
+    background-image: url('./bacteria.svg');
+}
